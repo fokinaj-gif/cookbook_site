@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COOKBOOK — mobiil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header class="site-header">
+      <h1 class="logo">COOKBOOK</h1>
+      <p class="tagline">EESTI MAITSVAM RETSEPTIVEEB</p>
+      <span class="tag-sep" aria-hidden="true"></span>
+    </header>
+
+    <!-- NAV -->
+    <nav class="main-nav" aria-label="Põhinavigatsioon">
+      <a href="#retseptid">RETSEPTID</a>
+      <a href="#kontakt">VÕTA ÜHENDUST</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Kangelaspilt / bänner"></section>
+
+    <!-- MEIST -->
+    <section class="about" aria-labelledby="meist">
+      <div class="about-text">
+        <h2 id="meist">MEIST</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra,
+          metus in interdum tincidunt, urna magna tincidunt dui, nec vehicula felis
+          nulla sed leo. Sed varius justo vitae velit euismod, eget vulputate lorem
+          facilisis.
+        </p>
+      </div>
+      <div class="about-media" aria-label="Meeskond">
+        <img src="images/kokkad_meist.png" alt="Meie kokad">
+      </div>
+    </section>
+
+    <!-- RETSEPTID -->
+    <h2 class="sec-title" id="retseptid">RETSEPTID</h2>
+
+    <!-- KATEGOORIAD (3 suurt ringi) -->
+    <section class="categories" aria-label="Kategooriad">
+      <div class="circle">
+        <img src="images/estonianfood.jpeg" alt="Eesti roog">
+        <span class="label">EESTI KÖÖK</span>
+      </div>
+      <div class="circle">
+        <img src="images/asianfood.png" alt="Aasia roog">
+        <span class="label">AASIA KÖÖK</span>
+      </div>
+      <div class="circle">
+        <img src="images/italianfood.jpg" alt="Itaalia roog">
+        <span class="label">ITAALIA KÖÖK</span>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="kontakt">
+    <div class="footer-inner">
+      <div class="contact">
+        © 20.09.2025<br>
+        tel: 55555555<br>
+        @: cookbook@email.com
+      </div>
+      <div class="footer-icons">
+        <a href="#" aria-label="Facebook"><img src="images/facebook.png" alt=""></a>
+        <a href="#" aria-label="Instagram"><img src="images/instagram.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
