@@ -59,8 +59,8 @@ body {
 /* HERO */
 .hero {
   overflow: hidden;
-  height: calc(40vh - 50px); /* учебный calc */
-  max-height: 250px;        /* ограничитель сверху */
+  height: calc(40vh - 50px); 
+  max-height: 250px;        
   min-height: 180px;   
   border: 2px solid #999;
   background: url("images/cookbookbanner.jpg") no-repeat center / cover;
